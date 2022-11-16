@@ -67,7 +67,7 @@ async def zed_handler(event):
     await zedub.get_me()
     if query.startswith("الاوامر") and event.query.user_id == zedub.uid:
         ZEDPIC = gvarstatus("CMD_PIC") or "
-"https://te.legra.ph/file/5957f2cff39a08a923450.jpg"
+        ZEDPIC = gvarstatus("CMD_PIC") or "https://te.legra.ph/file/5957f2cff39a08a923450.jpg"
         buttons = [[Button.inline("❶", data="ahmed1"), Button.inline("❷", data="ahmed2"), Button.inline("❸", data="ahmed3"), Button.inline("❹", data="ahmed4"),],[Button.inline("❺", data="ahmed5"), Button.inline("❻", data="ahmed6"), Button.inline("❼", data="ahmed7"), Button.inline("⇒", data="back1"),]]
         if ZEDPIC and ZEDPIC.endswith((".jpg", ".png")):
             result = builder.photo(ZEDPIC,text=Malath, buttons=buttons, link_preview=True)
