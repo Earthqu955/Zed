@@ -25,16 +25,16 @@ print(f"المرخصة بموجب شروط  {zthon.__license__}")
 cmdhr = Config.COMMAND_HAND_LER
 
 try:
-    LOGS.info("⌭ بـدء تنزيـل زدثــون ⌭")
+    LOGS.info(" بـدء تنزيـل زدثــون")
     zedub.loop.run_until_complete(setup_bot())
-    LOGS.info("⌭ بـدء تشغيـل البـوت ⌭")
+    LOGS.info(" بـدء تشغيـل البـوت ")
 except Exception as e:
     LOGS.error(f"{e}")
     sys.exit()
 
 
 try:
-    LOGS.info("⌭ جـار تفعيـل وضـع الانـلاين ⌭")
+    LOGS.info(" جـار تفعيـل وضـع الانـلاين ")
     zedub.loop.run_until_complete(mybot())
     LOGS.info("✓ تـم تفعيـل الانـلاين .. بـنجـاح ✓")
 except Exception as e:
@@ -48,7 +48,7 @@ async def startup_process():
     print("➖➖➖➖➖ 𝗭𝗧𝗵𝗼𝗻™ ➖➖➖➖➖")
     print("تـم التنصـيب .. بنجـاح ✓")
     print(
-        f"⌔┊تـم تنصيـب زدثــون يـوزربـوت . . بنجـاح 🧸♥️ \n\n⌔┊تحيـاتي .. زلــزال الهيبــه\n⌔┊قنـاة السـورس ↶.\n🌐┊@ZedThon "
+        f"⌔┊تـم تنصيـب زدثــون يـوزربـوت . . بنجـاح 🦇♥️ \n\n⌔┊تحيـاتي ..\n⌔┊قنـاة السـورس ↶.\n┊@Xl441 "
     )
     print("➖➖➖➖➖ 𝗭𝗧𝗵𝗼𝗻™ ➖➖➖➖➖")
     await verifyLoggerGroup()
