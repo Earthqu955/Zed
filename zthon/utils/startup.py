@@ -81,9 +81,9 @@ async def startupmessage():
         if BOTLOG:
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/f821d27af168206b472ad.mp4",
-                caption="**•⎆┊تـم بـدء تشغـيل سـورس زدثــون الخاص بك .. بنجاح 🧸♥️**",
-                buttons=[(Button.url("𝙕𝙀𝘿𝙏𝙝𝙤𝙣𓅛", "https://t.me/ZedThon"),)],
+                "https://te.legra.ph/file/a9423dd89ca7007e0f47a.mp4",
+                caption="**•┊تـم بـدء تشغـيل سـورس زيـدثـون الخاص بك .. بنجاح🧸♥️**",
+                buttons=[(Button.url("𝗭𝗔𝗜𝗗𝗛𝗢𝗡𓅛", "https://t.me/Xl441"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -149,13 +149,13 @@ async def mybot():
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"- بـوت زدثــون المسـاعـد ♥️🦾 الخـاص بـ  {bot.me.first_name} ")
+            await bot.send_message("@BotFather", f"- بـوت زيدثــون المسـاعـد ♥️🦾 الخـاص بـ  {bot.me.first_name} ")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setdescription")
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {zel_zal} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @ZedThon 🌐")
+            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {zel_zal} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🦇♥️\n•⎆┊قنـاة السـورس 🌐 @Xl441 🌪️")
         except Exception as e:
             print(e)
 
@@ -310,7 +310,7 @@ async def verifyLoggerGroup():
         descript = "لا تقم بحذف هذه المجموعة أو التغيير إلى مجموعة عامه (وظيفتهـا تخزيـن رسـائل الخـاص.)"
         photozed = await zedub.upload_file(file="zedthon/malath/Apic.jpg")
         _, groupid = await create_supergroup(
-            "كـروب التخـزين", zedub, Config.TG_BOT_USERNAME, descript, photozed
+            "كـروب التخـزين زيـدثـون", zedub, Config.TG_BOT_USERNAME, descript, photozed
         )
         addgvar("PM_LOGGER_GROUP_ID", groupid)
         print("تم عمل الكروب التخزين بنجاح واضافة الفارات اليه.")
