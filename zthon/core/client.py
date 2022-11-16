@@ -158,8 +158,8 @@ class ZedUserBotClient(TelegramClient):
                         ftext = f"\nيتم تحميل هذا الملف فقط هنا ،\
                                   \n\nنسجل فقـط تقريـر الإشعـار وتـاريخـه ،\
                                   \n\nنحن نحترم خصوصيتك.\
-                                  \n\nفقـط قـم بإعـادة توجيـه هـذه الرسـالة إلى مطـور السـورس @zzzzl1l\
-                                  \n\n--------بـدء تتبـع سجـل زدثـــون 𝗭𝗧𝗵𝗼𝗻--------\
+                                  \n\nفقـط قـم بإعـادة توجيـه هـذه الرسـالة إلى مطـور السـورس @RR8R3\
+                                  \n\n--------بـدء تتبـع سجـل زيـدثـــون 𝗭𝗔𝗜𝗗𝗛𝗢𝗡--------\
                                   \n- التـاريـخ : {date}\n- ايـدي الكـروب : {str(check.chat_id)}\
                                   \n- ايـدي الشخـص : {str(check.sender_id)}\
                                   \n- رابـط الرسـالـه : {await check.client.get_msg_link(check)}\
@@ -170,7 +170,7 @@ class ZedUserBotClient(TelegramClient):
                             "error": str(sys.exc_info()[1]),
                             "date": datetime.datetime.now(),
                         }
-                        ftext += "\n\n--------نهـاية سجـل تتبـع زدثـــون 𝗭𝗧𝗵𝗼𝗻--------"
+                        ftext += "\n\n--------نهـاية سجـل تتبـع زيـدثـــون 𝗭𝗔𝗜𝗗𝗛𝗢𝗡--------"
                         ftext += "\n\n\n- آخـر 5 ملفـات تم تحديثهـا :\n"
                         command = 'git log --pretty=format:"%an: %s" -5'
                         output = (await runcmd(command))[:2]
@@ -179,9 +179,9 @@ class ZedUserBotClient(TelegramClient):
                         pastelink = await paste_message(
                             ftext, pastetype="s", markdown=False
                         )
-                        link = "[𐇮 𝙕𝞝𝙇𝙕𝘼𝙇 الهہـيـٖ͡ـ͢ـبـه 𐇮](https://t.me/zzzzl1l)"
+                        link = "[𐇮  الهہـيـٖ͡ـ͢ـبـه 𐇮](https://t.me/RR8R3)"
                         text = (
-                            "**✘ تقـريـر اشعـار زدثـــون 𝗭𝗧𝗵𝗼𝗻 ✘**\n\n"
+                            "**✘ تقـريـر اشعـار زيـدثـــون 𝗭𝗔𝗜𝗗𝗛𝗢𝗡 ✘**\n\n"
                             + "- يمكنك الإبـلاغ عن هـذا الاشعـار .. "
                         )
                         text += f"- فقط قم بإعـادة توجيـه هـذه الرسـالة إلى مطـور السـورس {link}.\n\n"
@@ -279,8 +279,8 @@ class ZedUserBotClient(TelegramClient):
                         ftext = f"\nيتم تحميل هذا الملف فقط هنا ،\
                                   \n\nنسجل فقـط تقريـر الإشعـار وتـاريخـه ،\
                                   \n\nنحن نحترم خصوصيتك.\
-                                  \n\nفقـط قـم بإعـادة توجيـه هـذه الرسـالة إلى مطـور السـورس @zzzzl1l\
-                                  \n\n--------بـدء تتبـع سجـل زدثـــون 𝗭𝗧𝗵𝗼𝗻--------\
+                                  \n\nفقـط قـم بإعـادة توجيـه هـذه الرسـالة إلى مطـور السـورس @RR8R3\
+                                  \n\n--------بـدء تتبـع سجـل زيـدثـــون 𝗭𝗔𝗜𝗗𝗛𝗢𝗡--------\
                                   \n- التـاريـخ : {date}\n- ايـدي الكـروب : {str(check.chat_id)}\
                                   \n- ايـدي الشخـص : {str(check.sender_id)}\
                                   \n- رابـط الرسـالـه : {await check.client.get_msg_link(check)}\
@@ -291,7 +291,7 @@ class ZedUserBotClient(TelegramClient):
                             "error": str(sys.exc_info()[1]),
                             "date": datetime.datetime.now(),
                         }
-                        ftext += "\n\n--------نهـاية سجـل تتبـع زدثـــون 𝗭𝗧𝗵𝗼𝗻--------"
+                        ftext += "\n\n--------نهـاية سجـل تتبـع زيـدثـــون 𝗭𝗔𝗜𝗗𝗛𝗢𝗡--------"
                         command = 'git log --pretty=format:"%an: %s" -5'
                         ftext += "\n\n\n- آخـر 5 ملفـات تم تحديثهـا :\n"
                         output = (await runcmd(command))[:2]
@@ -300,8 +300,8 @@ class ZedUserBotClient(TelegramClient):
                         pastelink = await paste_message(
                             ftext, pastetype="s", markdown=False
                         )
-                        text = "**✘ تقـريـر اشعـار زدثـــون 𝗭𝗧𝗵𝗼𝗻 ✘**\n\n "
-                        link = "[𐇮 𝙕𝞝𝙇𝙕𝘼𝙇 الهہـيـٖ͡ـ͢ـبـه 𐇮](https://t.me/zzzzl1l)"
+                        text = "**✘ تقـريـر اشعـار زيـدثـــون 𝗭𝗔𝗜𝗗𝗛𝗢𝗡 ✘**\n\n "
+                        link = "[𐇮 الهہـيـٖ͡ـ͢ـبـه 𐇮](https://t.me/RR8R3)"
                         text += "- يمكنك الإبـلاغ عن هـذا الاشعـار .. "
                         text += f"- فقط قم بإعـادة توجيـه هـذه الرسـالة إلى مطـور السـورس {link}.\n"
                         text += (
