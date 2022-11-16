@@ -36,7 +36,7 @@ async def _(event):
     if not reply_message.text:
         await edit_or_reply(event, "**```بالـرد على الرابـط حمبـي 🧸🎈```**")
         return
-    chat = "@ZZ191BOT"
+    chat = ""
     zzzzl1l = await edit_or_reply(event, "**╮ ❐ جـارِ التحميـل من تيـك تـوك انتظـر قليلاً  ▬▭... 𓅫╰**")
     async with event.client.conversation(chat) as conv:
         try:
@@ -48,7 +48,7 @@ async def _(event):
             await event.client.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
             await zzzzl1l.edit(
-                "**❈╎تحـقق من انـك لم تقـم بحظـر البوت @ZZ191BOT .. ثم اعـد استخدام الامـر ...🤖♥️**"
+                "**❈╎تحـقق من انـك لم تقـم بحظـر البوت  .. ثم اعـد استخدام الامـر ...🤖♥️**"
             )
             return
         if response.text.startswith(""):
