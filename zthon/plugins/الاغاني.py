@@ -142,7 +142,7 @@ async def shazamcmd(event):
     "To reverse search song."
     reply = await event.get_reply_message()
     mediatype = await media_type(reply)
-    chat = "@DeezerMusicBot"
+    chat = "@VS1VBoT"
     delete = False
     flag = event.pattern_match.group(4)
     if not reply or not mediatype or mediatype not in ["Voice", "Audio"]:
@@ -217,7 +217,7 @@ async def shazamcmd(event):
 async def song2(event):
     "لـ تحميـل الاغـانـي مـن يـوتيـوب"
     song = event.pattern_match.group(1)
-    chat = "@CatMusicRobot"
+    chat = "@VS1VBoT"
     reply_id_ = await reply_id(event)
     catevent = await edit_or_reply(event, SONG_SEARCH_STRING, parse_mode="html")
     async with event.client.conversation(chat) as conv:
