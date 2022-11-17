@@ -55,10 +55,10 @@ async def _(event):
         reply_to_id = str(event.pattern_match.group(1))
     if not reply_to_id:
         return await edit_or_reply(
-            event, "**╮ . كـاشف الاࢪقـام الـ؏ـࢪبيـة 📲.. اࢪسـل** `.الكاشف` **للتعليـمات 𓅫╰**"
+            event, "**╮ . كـاشف الاࢪقـام الـ؏ـࢪبيـة 🧸♥️.. اࢪسـل** `.الكاشف` **للتعليـمات ╰**"
         )
-    chat = "@Zelzalybot"
-    zzzzl1l = await edit_or_reply(event, "**╮•⎚ جـارِ الكـشف ؏ــن الـرقـم  📲 ⌭ . . .**")
+    chat = ""
+    zzzzl1l = await edit_or_reply(event, "**╮• جـارِ الكـشف ؏ــن الـرقـم  🧸♥️ . . .**")
     async with event.client.conversation(chat) as conv:
         try:
             response = conv.wait_event(
