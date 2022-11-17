@@ -1,4 +1,4 @@
-# Created by @Jisan7509
+# Created by @rr8r3
 
 import random
 
@@ -28,7 +28,7 @@ async def some(event):
     inpt = event.pattern_match.group(1)
     reply_to_id = await reply_id(event)
     if not inpt:
-        await edit_delete(event, "`Give an input to search...`")
+        await edit_delete(event, "`جـارِ البـحث ؏ــن الـمـتحركـة  🧸♥️ . . .`")
     count = 1
     if ";" in inpt:
         inpt, count = inpt.split(";")
