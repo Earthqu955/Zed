@@ -36,7 +36,7 @@ def get_size(inputbytes, suffix="B"):
 async def psu(event):
     "shows system specification"
     uname = platform.uname()
-    softw = "** 𓆩 𝑺𝑶𝑼𝑹𝑪𝑬 𝙕𝞝𝘿𝙏𝙃𝙊𝙉 𝑺𝒀𝑺𝑻𝑬𝑴 𝑰𝑵𝑭𝑶 𓆪 **\n"
+    softw = "** 𓆩 𝑺𝑶𝑼𝑹𝑪𝑬 𝗭𝗔𝗜𝗗𝗛𝗢𝗡 𝑺𝒀𝑺𝑻𝑬𝑴 𝑰𝑵𝑭𝑶 𓆪 **\n"
     softw += f"** ⌔∮ النظام :↬ ** `{uname.system}`\n"
     softw += f"** ⌔∮ المرجع  :↬ ** `{uname.release}`\n"
     softw += f"** ⌔∮ الاصدار  :↬ ** `{uname.version}`\n"
