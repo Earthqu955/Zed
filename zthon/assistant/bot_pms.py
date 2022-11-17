@@ -48,12 +48,12 @@ async def check_bot_started_users(user, event):
     check = get_starter_details(user.id)
     if check is None:
         start_date = str(datetime.now().strftime("%B %d, %Y"))
-        notification = f"**- هنـاك شخـص👤** {_format.mentionuser(user.first_name , user.id)} **قـام بالاشتـراك بالبـوت المسـاعـد**.\
+        notification = f"**- هنـاك شخـص🧸♥** {_format.mentionuser(user.first_name , user.id)} **قـام بالاشتـراك بالبـوت المسـاعـد**.\
                 \n**- الايـدي : **`{user.id}`\
                 \n**- الاسـم : **{get_display_name(user)}"
     else:
         start_date = check.date
-        notification = f"**- هنـاك شخـص👤** {_format.mentionuser(user.first_name , user.id)} **قـام بالاشتـراك بالبـوت المسـاعـد**.\
+        notification = f"**- هنـاك شخـص🧸♥** {_format.mentionuser(user.first_name , user.id)} **قـام بالاشتـراك بالبـوت المسـاعـد**.\
                 \n**- الايـدي : **`{user.id}`\
                 \n**- الاسـم : **{get_display_name(user)}"
     try:
@@ -106,8 +106,8 @@ async def bot_start(event):
         else:
             start_msg = f"**❈╎مـرحباً بـك عزيـزي  {mention} **\
                         \n**❈╎انـا {my_mention}' **\
-                        \n**❈╎ يمكنك التواصل مع مالك البوت فقط قم بـ ارسال رسالتك .**\
-                        \n\n**❈╎البـوت خـاص بسـورس :** [𝗭𝗔𝗜𝗗𝗛𝗢𝗡 𓅛](https://t.me/Xl441)"
+                        \n**❈╎ يمكنك التواصل مع مالك البوت فقـط قم بـ ارسال ࢪسـالتك .**\
+                        \n\n**❈╎البـوت خـاص بسـوࢪس :** [𝗭𝗔𝗜𝗗𝗛𝗢𝗡 𓅛](https://t.me/Xl441)"
         buttons = [
             (
                 Button.url("قنـاة السـورس", "https://t.me/Xl441"),
