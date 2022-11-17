@@ -57,7 +57,7 @@ Zelzal = f"**•◈• اصــدار الســورس ⤽ 7.7**  \n**•◈• 
 
 
 
-#لـوحــة الاوامــر - حقــوق زدثـــون
+#لـوحــة الاوامــر - حقــوق زي دثـــون
 @zedub.tgbot.on(events.InlineQuery)
 @check_owner
 async def zed_handler(event):
