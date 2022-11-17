@@ -1,4 +1,4 @@
-#𝙕𝙚𝙙𝙏𝙝𝙤𝙣 ®
+#لتـحاول تخمط الملف مـرفوع على استـضافتي كتابة الكود الهيبة @rr8r3 ®
 
 from datetime import datetime
 from math import sqrt
