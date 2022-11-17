@@ -74,11 +74,11 @@ zed_temp = """{ALIVE_TEXT}
 
 **{Z_EMOJI} قاعدۿ البيانات :** تعمل بنـجاح
 **{Z_EMOJI} إصـدار التـيليثون :** `{telever}`
-**{Z_EMOJI} إصـدار زدثــون :** `{zdver}`
+**{Z_EMOJI} إصـدار زيـدثــون :** `{zdver}`
 **{Z_EMOJI} إصـدار البـايثون :** `{pyver}`
 **{Z_EMOJI} الوقـت :** `{uptime}`
 **{Z_EMOJI} المسـتخدم:** {mention}
-**{Z_EMOJI} قنـاة السـورس :** [اضغـط هنـا](https://t.me/ZedThon)"""
+**{Z_EMOJI} قنـاة السـورس :** [اضغـط هنـا](https://t.me/Xl441)"""
 
 
 @zedub.zed_cmd(
@@ -95,9 +95,9 @@ async def amireallyialive(event):
     "A kind of showing bot details by your inline bot"
     reply_to_id = await reply_id(event)
     Z_EMOJI = gvarstatus("ALIVE_EMOJI") or "✥┊"
-    zed_caption = "** بـوت  زدثــون 𝙕𝞝𝘿𝙏𝙃𝙊𝙉  يعمـل .. بنجـاح ☑️ 𓆩 **\n"
+    zed_caption = "** بـوت  زيـدثــون 𝗭𝗔𝗜𝗗𝗛𝗢𝗡𓅛  يعمـل .. بنجـاح ☑️ 𓆩 **\n"
     zed_caption += f"**{Z_EMOJI} إصـدار التـيليثون :** `{version.__version__}\n`"
-    zed_caption += f"**{Z_EMOJI} إصـدار زدثــون :** `{zedversion}`\n"
+    zed_caption += f"**{Z_EMOJI} إصـدار زيـدثــون :** `{zedversion}`\n"
     zed_caption += f"**{Z_EMOJI} إصـدار البـايثون :** `{python_version()}\n`"
     zed_caption += f"**{Z_EMOJI} المسـتخدم :** {mention}\n"
     results = await event.client.inline_query(Config.TG_BOT_USERNAME, zed_caption)
