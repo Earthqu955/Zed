@@ -28,7 +28,7 @@ async def some(event):
     inpt = event.pattern_match.group(1)
     reply_to_id = await reply_id(event)
     if not inpt:
-        await edit_delete(event, "`جـارِ البـحث ؏ــن الـمـتحركـة  🧸♥️ . . .`")
+        await edit_delete(event, "`حـدث خطـأ اثـناء طـلب ؏ــن المـتحركة ارسل .متحركه + نوع مثل حب  . . .`")
     count = 1
     if ";" in inpt:
         inpt, count = inpt.split(";")
