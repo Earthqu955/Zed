@@ -44,7 +44,7 @@ async def _(event):
             responses = await response
             await event.client.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
-            await zzzzl1l.edit("**╮•⎚ تحـقق من انـك لم تقـم بحظر البوت @zzznambot .. ثم اعـد استخدام الامـر ...🤖♥️**")
+            await zzzzl1l.edit("**╮•⎚ تحـقق من انـك لم تقـم بحظر البوت  .. ثم اعـد استخدام الامـر ...🤖♥️**")
             return
         if response.text.startswith("I can't find that"):
             await zzzzl1l.edit("**╮•⎚ عـذراً .. لـم استطـع ايجـاد المطلـوب ☹️💔**")
