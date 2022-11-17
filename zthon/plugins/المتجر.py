@@ -1,7 +1,7 @@
 """Fetch App Details from Playstore.
 .app <app_name> to fetch app details.
 .appr <app_name>  to fetch app details with Xpl0iter request link.
-  ©ZED™ - @ZlZZl77 """
+  ©ZED™ - @rr8r3 """
 
 import bs4
 import requests
@@ -23,7 +23,7 @@ plugin_category = "البحث"
 )
 async def apk(event):
     app_name = event.pattern_match.group(1)
-    event = await edit_or_reply(event, "**⌔╎جـارِ البحث ؏ـن التطبيق ⇱...**")
+    event = await edit_or_reply(event, "**⌔╎جـارِ البحث ؏ـن التطبيق 🧸...**")
     try:
         remove_space = app_name.split(" ")
         final_name = "+".join(remove_space)
@@ -157,8 +157,8 @@ async def apkr(event):
             + app_link
             + "'>رابـط التطبيـق ع جوجل بـلاي</a>"
         )
-        app_details += "\n\n<b>زلــزال الهيبــه : </b> <a href='https://t.me/zzzzl1l'>لــ الاستفسـار</a>"
-        app_details += "\n\n===> 𝙕𝙚𝙙𝙏𝙝𝙤𝙣 - @ZedThon ® <==="
+        app_details += "\n\n<b>الهيبــة. : </b> <a href='https://t.me/rr8r3'>لــ الاستفسـار</a>"
+        app_details += "\n\n===> 𝗭𝗔𝗜𝗗𝗛𝗢𝗡 - @Xl441 ® <==="
         await event.edit(app_details, link_preview=True, parse_mode="HTML")
     except IndexError:
         await event.edit("**عـذراً .. لا يـوجد نتائـج اكتـب الاسـم الصحيـح للتطبيـق وعـاود البحث مـرة اخـرى**")
@@ -166,8 +166,8 @@ async def apkr(event):
         await event.edit("Exception Occured:- " + str(err))
 
 
-#𝙕𝙚𝙙𝙏𝙝𝙤𝙣 ®
-#الملـف حقـوق زلـزال الهيبـه ⤶ @zzzzl1l خاص بسـورس ⤶ 𝙕𝙚𝙙𝙏𝙝𝙤𝙣
+#𝗭𝗔𝗜𝗗𝗛𝗢𝗡 ®
+#الملـف حقـوق الهيبـه ⤶ @rr8r3 خاص بسـورس ⤶ 𝗭𝗔𝗜𝗗𝗛𝗢𝗡
 #الملف متعوب عليه So تخمط وماتذكـر المصـدر == اهينـك
 
 @zedub.zed_cmd(
@@ -182,7 +182,7 @@ async def zed(event):
     if event.fwd_from:
         return
     zedr = event.pattern_match.group(1)
-    zelzal = "@PremiumAppBot"
+    zelzal = ""
     if event.reply_to_msg_id:
         await event.get_reply_message()
     tap = await bot.inline_query(zelzal, zedr)
@@ -202,7 +202,7 @@ async def zed(event):
     if event.fwd_from:
         return
     zedr = event.pattern_match.group(1)
-    zelzal = "@TGFilmBot"
+    zelzal = ""
     if event.reply_to_msg_id:
         await event.get_reply_message()
     tap = await bot.inline_query(zelzal, zedr)
