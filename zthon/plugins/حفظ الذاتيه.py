@@ -20,7 +20,7 @@ async def oho(event):
         return await event.edit("**- ❝ ⌊بالـرد علـى صورة ذاتيـة التدميـر 𓆰...**")
     zzzzl1l = await event.get_reply_message()
     pic = await zzzzl1l.download_media()
-    await zedub.send_file("me", pic, caption=f"**- ❝ ⌊تـم حفـظ الصـورة ذاتيـة التدمير بنجـاح ☑️ 🥳𓆰...**")
+    await zedub.send_file("me", pic, caption=f"**-  ⌊تـم حفـظ الصـورة ذاتيـة التدمير بنجـاح ♥️ 🥳𓆰...**")
     await event.delete()
 
 
