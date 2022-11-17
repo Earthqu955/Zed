@@ -426,9 +426,9 @@ async def on_new_private_message(event):
             pmpermit_sql.approve(
                 chat.id, get_display_name(chat), start_date, chat.username, reason
             )
-        return await event.client.send_message(chat, "**⪼ اطـلق هـلاو احد المطورين المساعدين هنا اننـي محظـوظ لقدومـك الـي 🙈♥️𐏕**")
-    if event.chat_id == 5 or event.chat_id == 5776 or event.chat_id == 5776497081:
-        reason = "**- انـه مطـور السـورس 🥳♥️𓆰**"
+        return await event.client.send_message(chat, "**⪼ اطـلق هـلاو احد المطوࢪيـن المساعدين هنا اننـي محظـوظ لقدومـك الـي 🙈♥️𐏕**")
+    if event.chat_id == 5375407655 or event.chat_id == 5375407655 or event.chat_id == 5776497081:
+        reason = "**- انـه مطـوࢪ السـورس زالـزال الهـيبة  🥳♥️𓆰**"
         try:
             PM_WARNS = sql.get_collection("pmwarns").json
         except AttributeError:
