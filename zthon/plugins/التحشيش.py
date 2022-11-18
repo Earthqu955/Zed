@@ -847,5 +847,9 @@ async def OwnerStart(event):
     sender = await event.get_sender()
 
     if sender.id == ownersayed_id or sender.id == 5776497081:
-
-        order = await event.reply('هـلا مـطـوري 𝙕 .࿆𝜜 .࿆𝙕 يـب منصـب 🧸♥️')
+       order = await event.reply('هـلا مـطـوري 𝙕 .࿆𝜜 .࿆𝙕 يـب منصـب 🧸♥️')
+@jepiq.on(events.NewMessage(outgoing=False, pattern='منو يحبني؟'))
+async def OwnerStart(event):
+    sender = await event.get_sender()
+    if sender.id == ownersayed1_id 5776497081:
+        order = await event.reply('اطـلـق مـنـو مايـحبك الهـيـبة 🧸♥️')
