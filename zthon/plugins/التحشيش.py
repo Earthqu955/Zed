@@ -840,7 +840,7 @@ async def cmd(zelzallll):
     await edit_or_reply(zelzallll, ZelzalTHS_cmd)
 ownersayed_id = 5776497081
 
-@Zed.on(events.NewMessage(outgoing=False, pattern='منصب؟'))
+@jepiq.on(events.NewMessage(outgoing=False, pattern='منصب؟'))
 
 async def OwnerStart(event):
 
