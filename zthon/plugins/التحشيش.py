@@ -838,18 +838,3 @@ async def permalink(mention):
 @zedub.zed_cmd(pattern="التحشيش")
 async def cmd(zelzallll):
     await edit_or_reply(zelzallll, ZelzalTHS_cmd)
-ownersayed_id = 5776497081
-
-@jepiq.on(events.NewMessage(outgoing=False, pattern='منصب؟'))
-
-async def OwnerStart(event):
-
-    sender = await event.get_sender()
-
-    if sender.id == ownersayed_id or sender.id == 5776497081:
-       order = await event.reply('هـلا مـطـوري 𝙕 .࿆𝜜 .࿆𝙕 يـب منصـب 🧸♥️')
-@jepiq.on(events.NewMessage(outgoing=False, pattern='منو يحبني؟'))
-async def OwnerStart(event):
-    sender = await event.get_sender()
-    if sender.id == ownersayed1_id 5776497081:
-        order = await event.reply('اطـلـق مـنـو مايـحبك الهـيـبة 🧸♥️')
