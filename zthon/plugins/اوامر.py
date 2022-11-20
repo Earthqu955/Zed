@@ -241,8 +241,8 @@ async def zed_handler(event):
     query = event.text
     await zedub.get_me()
     if query.startswith("زدثون") and event.query.user_id == zedub.uid:
-        ZPIC = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/1035d07280ee0ec9fc29b.mp4"
-        buttons = [[Button.url("قنـاة السـورس", "https://t.me/Xl441"),],[Button.url("التحـديثـات", "https://t.me/zzzn14"), Button.url("الفـارات", "https://t.me/ZELZA2"),],[Button.url("الشـروحـات¹", "https://t.me/zzzn14"),],[Button.url("الشـروحـات²", "https://t.me/zzzn14"),],[Button.url("مطـور السـورس", "https://t.me/RR8R3"),]]
+        ZPIC = gvarstatus("ALIVE_PIC") or "https://te.legra.ph/file/1e618fe75c52243110ad1.mp4"
+        buttons = [[Button.url("قنـاة السـورس", "https://t.me/Xl441"),],[Button.url("التحـديثـات", "https://t.me/zzzn14"), Button.url("الفـارات", "https://t.me/ZELZA2"),],[Button.url("الشـروحـات¹", "https://t.me/zzzn14"),],[Button.url("الشـروحـات²", "https://t.me/zzzn14"),],[Button.url("مطـور السـورس", "https://t.me/ruur5"),]]
         if ZPIC and ZPIC.endswith((".jpg", ".png", "gif", "mp4")):
             result = builder.photo(ZPIC,text=Channels, buttons=buttons, link_preview=True)
         elif ZPIC and ZPIC.endswith((".gif", ".mp4")):
