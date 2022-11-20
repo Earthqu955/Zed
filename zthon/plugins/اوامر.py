@@ -270,8 +270,8 @@ async def zed_handler(event):
     query = event.text
     await zedub.get_me()
     if query.startswith("سورس") and event.query.user_id == zedub.uid:
-        ZPIC = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/1035d07280ee0ec9fc29b.mp4"
-        buttons = [[Button.url("قنـاة الســورس", "https://t.me/Xl441"), Button.url("مطـور الســورس", "https://t.me/RR8R3")]]
+        ZPIC = gvarstatus("ALIVE_PIC") or "https://te.legra.ph/file/1e618fe75c52243110ad1.mp4"
+        buttons = [[Button.url("قنـاة الســورس", "https://t.me/Xl441"), Button.url("مطـور الســورس", "https://t.me/ruur5")]]
         if ZPIC and ZPIC.endswith((".jpg", ".png")):
             result = builder.photo(ZPIC,text=Zelzal, buttons=buttons, link_preview=True)
         elif ZPIC and ZPIC.endswith((".gif", ".mp4")):
